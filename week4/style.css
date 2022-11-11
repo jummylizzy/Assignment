@@ -1,0 +1,122 @@
+
+*{
+    margin:0;
+    padding:0;
+     box-sizing: border-box; 
+
+}
+/* .link{
+    color: black;
+    background: white;
+    padding: 2px 8px;
+    top: 0;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+}
+.link:hover{
+    background-color: wheat;
+    color: black; */
+}
+body{
+    background-color: #fff8dc;
+}
+.flex-container{
+     margin: auto; 
+    display:flex;
+    width:50%;
+    height:100vh;
+    align-items: center;
+    /* flex-direction: row; */
+
+}
+.top-container{
+    background-color: hsla(29, 100%, 50%, 0.945);
+    padding: 4em;
+    min-width: 17rem;
+    min-height: 25rem;
+    position: relative;
+    
+}
+.top-containerimage{
+    padding-bottom: 20px;
+}
+.top-container h1{
+    color: white;
+    font-size:30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.top-container p.top{
+       font-size: medium;
+       padding-bottom: 10px;
+
+}
+.top-container button{
+    font-size: larger;
+    padding-bottom: 10px;
+    bottom:0;
+    border-radius:15px;
+}
+.middle-container{
+    background-color:rgb(0, 128, 128);
+    padding:4em;
+    min-width: 17rem;
+    min-height: 25rem;
+    position: relative;
+}
+.middle-containerimage{
+    padding-bottom: 20px;
+}
+.middle-container h1{
+    color: white;
+    font-size:30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.middle-container p.middle{
+    font-size: medium;
+    padding-bottom: 30px;
+}
+.middle-container button{
+    font-size: larger;
+    padding-bottom: 10px;
+    bottom: 0;
+    border-radius: 15px;
+    
+}
+.bottom-container{
+    background-color: rgb(2, 78, 78);
+    padding: 4em;
+    min-width: 17rem;
+    min-height: 25rem;
+    position: relative;
+}
+.bottom-container image{
+    padding-bottom: 20px;
+}
+.bottom-container h1{
+    color: white;
+    font-size:30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.bottom-container p.bottom{
+    font-size: medium;
+    padding-bottom: 30px;
+}
+.bottom-container button{
+    font-size: larger;
+    padding-bottom: 10px;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
